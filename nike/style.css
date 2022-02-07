@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+}
+
+#navbar .logo{
+    width: 100px;
+}
+
+#navbar ul li{
+    margin: 10px 30px;
+    color: red;
+}
+
+#navbar ul li:hover{
+  color: red;
+  transition: 1s;
+}
+
+.first-row h3{
+    font-family: 'Libre Baskerville';
+    font-size: 80px;
+    margin: 100px  50px auto 50px;
+
+}
+
+
+.first-row p{
+    
+    color: rgb(rgb(189, 164, 176), green, blue);
+    margin: 10px  50px auto 50px;
+}
+
+
+.first-row .pricing{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.first-row button{
+    margin: 50px 0 0 50px;
+}
+
+.seccond-row{
+    margin-left: 0;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    height: 90vh;
+    background-color: red;
+}
+.seccond-row:hover{
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.seccond-row .nike-shoes{
+    margin-top: -50px;
+    width: 500px;
+    transform: rotate(-25deg);
+}
+.seccond-row h3{
+    position: relative;
+    
+    font-family: 'Libre Baskerville';
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: -10px;
+    opacity: .7;
+}
+
+.images-shoes img{
+    position: relative;
+    z-index: 1;
+    transform: rotate(-25deg);
+    display: inline-block;
+    margin: 10px 30px;
+    margin-top: 100px;
+    width: 100px;
+}
+
+.nike::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .nike:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .nike::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(700 50% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .nike {
+    position: relative;
+    font-size: 5rem;
+  }
+
+
+  .nike-b{
+      top: -70px;
+      position: relative;
+      right: 120px;
+      display: inline-block;
+      width: 65px;
+      height: 65px;
+      background-color: rgb(150, 82, 189);
+  }
+
+  .nike-g{
+    top: -70px;
+      position: relative;
+      right: 25px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(130, 252, 167);
+  }
+
+  .nike-red{
+    top: -70px;
+      position: relative;
+      left: 70px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(252, 130, 130);
+  }
+
+  .nike-s{
+    top: -70px;
+      position: relative;
+      left: 170px;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(89, 190, 48);
+  }
+
+  @media only screen and (max-width: 1024px)  {
+      .first-row{
+          position: static;
+          text-align: center;
+          margin-bottom: 30px;
+
+      }
+      .first-row .pricing{
+          text-align: center;
+
+      }
+       .first-row button{
+           margin-left: 0ch;
+           text-align: center;
+       }
+
+       .seccond-row{
+           position: static;
+           width: 100%;
+       }
+       .seccond-row img{
+           position: static;
+           width: 400px;
+       }
+       .images-shoes img{
+           position: relative;
+           z-index: 1;
+           position: static;
+           width: 100px;
+       }
+
+     .columns{
+         display: none;
+     }
+       
+  }
+
+
+  #luck{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+ 
+
+  #luck h1{
+    font-family: 'Libre Baskerville';
+    color: white;
+    font-size: 25px;
+  }
+
+  #luck img{
+    width: 500px;
+    margin-top: 100px;
+    transform: rotate(-25deg);
+  }
+
+
+ 
+
+
